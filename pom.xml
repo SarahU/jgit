@@ -48,7 +48,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.eclipse.jgit</groupId>
+  <groupId>com.datical.eclipse.jgit</groupId>
   <artifactId>org.eclipse.jgit-parent</artifactId>
   <packaging>pom</packaging>
   <version>5.2.1.201812262042-r</version>
@@ -713,21 +713,15 @@
 
   <distributionManagement>
     <repository>
-      <id>repo.eclipse.org</id>
-      <name>JGit Maven Repository - Releases</name>
-      <url>https://repo.eclipse.org/content/repositories/jgit-releases/</url>
+      <id>daticalrepo</id>
+      <url>https://artifactory.datical.net/artifactory/libs-release-local</url>
+      <layout>default</layout>
     </repository>
     <snapshotRepository>
-      <id>repo.eclipse.org</id>
-      <name>JGit Maven Repository - Snapshots</name>
-      <url>https://repo.eclipse.org/content/repositories/jgit-snapshots/</url>
-      <uniqueVersion>true</uniqueVersion>
+      <id>daticalrepo</id>
+      <url>https://artifactory.datical.net/artifactory/libs-snapshot-local</url>
+      <layout>default</layout>
     </snapshotRepository>
-    <site>
-      <id>jgit.website</id>
-      <name>JGit Website</name>
-      <url>${jgit.website.url}</url>
-    </site>
   </distributionManagement>
 
   <profiles>

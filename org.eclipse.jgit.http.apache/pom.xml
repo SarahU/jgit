@@ -46,7 +46,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.eclipse.jgit</groupId>
+		<groupId>com.datical.eclipse.jgit</groupId>
 		<artifactId>org.eclipse.jgit-parent</artifactId>
 		<version>5.2.1.201812262042-r</version>
 	</parent>
@@ -64,7 +64,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.jgit</groupId>
+			<groupId>com.datical.eclipse.jgit</groupId>
 			<artifactId>org.eclipse.jgit</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -134,7 +134,7 @@
                   <ignoreMissingClasses>false</ignoreMissingClasses>
                   <skipPomModules>true</skipPomModules>
               </parameter>
-              <skip>false</skip>
+              <skip>true</skip>
           </configuration>
           <executions>
             <execution>

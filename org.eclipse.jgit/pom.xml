@@ -191,7 +191,7 @@
                   <ignoreMissingClasses>false</ignoreMissingClasses>
                   <skipPomModules>true</skipPomModules>
               </parameter>
-              <skip>false</skip>
+              <skip>true</skip>
           </configuration>
           <executions>
             <execution>
