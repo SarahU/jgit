@@ -154,7 +154,6 @@ Export-Package: org.eclipse.jgit.annotations;version="5.2.1",
  org.eclipse.jgit.util.io;version="5.2.1",
  org.eclipse.jgit.util.sha1;version="5.2.1",
  org.eclipse.jgit.util.time;version="5.2.1"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: com.googlecode.javaewah;version="[1.1.6,2.0.0)",
  com.jcraft.jsch;version="[0.1.37,0.2.0)",
  javax.crypto,
